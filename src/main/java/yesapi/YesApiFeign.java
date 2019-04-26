@@ -20,7 +20,7 @@ import yesapires.info.JokeInfo;
  * description:
  **/
 @Slf4j
-public class YesApi {
+public class YesApiFeign {
 
     private static final String YESAPI_CN = "http://hn216.api.yesapi.cn/";
     private static final String APP_SECRET = "CVQY81HcB9s0yx0IL7WDqZ7igYtPGqvW5ndZx7pS1m8v3pTUQEONNAmJ9ubN9RUttVGM";
