@@ -1,4 +1,4 @@
-import yesapi.YesApi;
+import yesapi.YesApiFeign;
 
 /**
  * @author suwenguang
@@ -8,8 +8,8 @@ import yesapi.YesApi;
  **/
 public class TestApi {
     public static void main(String[] args) {
-        YesApi yesApi = new YesApi();
+        YesApiFeign yesApiFeign = new YesApiFeign();
 //        System.out.println(yesApi.getIdentificationInfo("445321199612300617"));
-//        System.out.println(yesApi.getJokeRandOne());
+        System.out.println(yesApiFeign.getJokeRandOne());
     }
 }
